@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    .footer-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .social-media {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .social-media a {
+      color: #fff;
+      font-size: 1.2rem;
+    }
+
+    .social-media a:hover {
+      color: #007BFF;
+    }
+
+    .copyright {
+      margin-top: 10px;
+      font-size: 0.8rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <!-- Page Content -->
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">MyWebsite</div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#privacy">Privacy Policy</a>
+      </div>
+      <div class="social-media">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">&#xf09a;</a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter">&#xf099;</a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">&#xf16d;</a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">&#xf08c;</a>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2024 MyWebsite. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</body>
+</html>
